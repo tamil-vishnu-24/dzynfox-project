@@ -1,0 +1,15 @@
+{
+  "extends": "next/core-web-vitals" ,
+  "parser": "babel",
+
+
+"env": {
+    "es6": true
+},
+"parserOptions": {
+  "ecmaVersion": 6,
+  "ecmaFeatures": {
+    "experimentalObjectRestSpread": true
+  }
+}
+}
